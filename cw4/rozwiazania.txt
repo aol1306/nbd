@@ -1,0 +1,17 @@
+1:
+MATCH p=shortestPath((darjeeling {name: "Darjeeling"})-[*]->(sandakphu {name: "Sandakphu"})) RETURN p
+
+2:
+MATCH p=shortestPath((darjeeling {name: "Darjeeling"})-[*]->(sandakphu {name: "Sandakphu"})) WITH *, relationships(p) as rels WHERE ALL(r IN rels WHERE r.winter <> true) RETURN p
+
+3:
+MATCH p=(a {name: "Darjeeling"})-[*]->(b {name: "Sandakphu"})   
+RETURN reduce(distance=0, r IN relationships(p) | distance + r.distance) AS distance, reduce(towns="", n IN nodes(p) | towns + " " + n.name) AS towns
+ORDER BY distance ASC
+
+4:
+MATCH (a:Airport)<-[r:ORIGIN]-(b)
+RETURN a.name, COUNT(r)
+ORDER BY COUNT(r) DESC
+
+5:
