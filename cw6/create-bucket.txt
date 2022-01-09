@@ -1,0 +1,2 @@
+riak-admin bucket-type create s18211 '{"props":{}}'
+riak-admin bucket-type activate s18211

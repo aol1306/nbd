@@ -1,0 +1,13 @@
+PUT
+{"name": "Antonio", "age": 123}
+GET
+{"name": "Antonio", "age": 123}
+PUT
+{"name": "Antonio", "age": 12}
+GET
+{"name": "Antonio", "age": 12}
+DELETE
+
+GET
+not found
+
