@@ -1,0 +1,60 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVvZ/SzgOEUpkzGNl+D7D/zZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18211>; rel="up"
+Last-Modified: Sun, 09 Jan 2022 17:35:51 GMT
+ETag: "3XKJqLbEK190wMVPop46pz"
+Date: Sun, 09 Jan 2022 17:35:52 GMT
+Content-Type: application/json
+Content-Length: 50
+
+{"a" : 1, "b": "a", "c": { "c1" : 1.4, "c2" : 2 }}
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVvafLJgDEUpkzGNl+DHD/zZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18211>; rel="up"
+Last-Modified: Sun, 09 Jan 2022 17:35:52 GMT
+ETag: "2sG5bD8n9aC4zyEGNpHVP"
+Date: Sun, 09 Jan 2022 17:35:52 GMT
+Content-Type: application/json
+Content-Length: 50
+
+{"a" : 2, "b": "b", "c": { "c1" : 1.4, "c2" : 2 }}
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVva/uxMJEUpkzGNl+DHD/zZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18211>; rel="up"
+Last-Modified: Sun, 09 Jan 2022 17:35:52 GMT
+ETag: "6Fmn20Ka9Sig3kUw4FL3lt"
+Date: Sun, 09 Jan 2022 17:35:52 GMT
+Content-Type: application/json
+Content-Length: 50
+
+{"a" : 3, "b": "c", "c": { "c1" : 1.4, "c2" : 2 }}
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVvZ/0PoLZDNlMCUy5rEy/Jjhf5svCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18211>; rel="up"
+Last-Modified: Sun, 09 Jan 2022 17:35:52 GMT
+ETag: "14inOx4IVsnfPw5v2dBeoC"
+Date: Sun, 09 Jan 2022 17:35:52 GMT
+Content-Type: application/json
+Content-Length: 50
+
+{"a" : 4, "b": "d", "c": { "c1" : 1.4, "c2" : 2 }}
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVvb/jVGHCCUy5rEy/Jjhf5svCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s18211>; rel="up"
+Last-Modified: Sun, 09 Jan 2022 17:35:52 GMT
+ETag: "7I9lyTmGL4FNMLqJPVNvNq"
+Date: Sun, 09 Jan 2022 17:35:53 GMT
+Content-Type: application/json
+Content-Length: 50
+
+{"a" : 5, "b": "e", "c": { "c1" : 1.4, "c2" : 2 }}
